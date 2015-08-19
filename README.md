@@ -25,3 +25,6 @@ In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
 9. Verwijder de **cell separator**.
 10. Wanneer je op een row klikt, navigeer je d.m.v. een push naar een detail scherm.
   - Geef de gekozen `Match` mee aan de detail view controller in de methode `prepareForSegue:sender:`.
+  - Toon de afbeeldingen van beide teams in full size.
+  - Toon de namen van beide teams.
+  - Toon de score.
