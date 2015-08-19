@@ -22,3 +22,4 @@ In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
   - Voeg nog een prototype cell toe om deze header te maken.
   - Je zult meerdere secties moeten invoeren in de UITableView.
 8. Verander de hoogte van de header views.
+9. Verwijder de **cell separator**.
