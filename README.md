@@ -23,3 +23,5 @@ In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
   - Je zult meerdere secties moeten invoeren in de UITableView.
 8. Verander de hoogte van de header views.
 9. Verwijder de **cell separator**.
+10. Wanneer je op een row klikt, navigeer je d.m.v. een push naar een detail scherm.
+  - Geef de gekozen `Match` mee aan de detail view controller in de methode `prepareForSegue:sender:`.
