@@ -17,7 +17,6 @@
 + (NSArray *)teamNames;
 + (MatchStatus)randomStatus;
 + (NSUInteger)randomScore;
-+ (NSString *)imageNameForTeamName:(NSString *)teamName;
 
 + (NSArray *)shuffleArray:(NSArray *)array;
 
