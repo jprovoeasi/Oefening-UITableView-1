@@ -17,4 +17,5 @@ In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
   - In één van de methodes van het protocol connecteer je het prototype van de cell. Dit doe je aan de hand van de **reuse identifier**, dit is dezelfde identifier als in stap 3.
 5. Als je nu de applicatie runt, is de UITableView gevuld met cells en kan je vlot scrollen doorheen alle rows.
 6. Voeg header views toe afhankelijk van de status van de match.
+  - Voeg nog een prototype cell toe om deze header te maken.
   - Je zult meerdere secties moeten invoeren in de UITableView.
