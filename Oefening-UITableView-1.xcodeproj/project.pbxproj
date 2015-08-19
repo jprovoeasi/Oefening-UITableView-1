@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD223231B8459D6000ABBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD223221B8459D6000ABBE2 /* main.m */; };
+		ABD223261B8459D6000ABBE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD223251B8459D6000ABBE2 /* AppDelegate.m */; };
+		ABD2232C1B8459D6000ABBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD2232A1B8459D6000ABBE2 /* Main.storyboard */; };
+		ABD2232E1B8459D6000ABBE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD2232D1B8459D6000ABBE2 /* Images.xcassets */; };
+		ABD223311B8459D6000ABBE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD2232F1B8459D6000ABBE2 /* LaunchScreen.xib */; };
+		ABD2233D1B8459D6000ABBE2 /* Oefening_UITableView_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2233C1B8459D6000ABBE2 /* Oefening_UITableView_1Tests.m */; };
+		ABD2234E1B845BA9000ABBE2 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2234D1B845BA9000ABBE2 /* Match.m */; };
+		ABD223531B845CA7000ABBE2 /* MatchFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD223521B845CA7000ABBE2 /* MatchFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD223371B8459D6000ABBE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD223151B8459D6000ABBE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD2231C1B8459D6000ABBE2;
+			remoteInfo = "Oefening-UITableView-1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABD2231D1B8459D6000ABBE2 /* Oefening-UITableView-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oefening-UITableView-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD223211B8459D6000ABBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD223221B8459D6000ABBE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABD223241B8459D6000ABBE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABD223251B8459D6000ABBE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABD2232B1B8459D6000ABBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABD2232D1B8459D6000ABBE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABD223301B8459D6000ABBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABD223361B8459D6000ABBE2 /* Oefening-UITableView-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oefening-UITableView-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD2233B1B8459D6000ABBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD2233C1B8459D6000ABBE2 /* Oefening_UITableView_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oefening_UITableView_1Tests.m; sourceTree = "<group>"; };
+		ABD2234C1B845BA9000ABBE2 /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Match.h; path = Classes/Match.h; sourceTree = "<group>"; };
+		ABD2234D1B845BA9000ABBE2 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Match.m; path = Classes/Match.m; sourceTree = "<group>"; };
+		ABD223511B845CA7000ABBE2 /* MatchFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchFactory.h; path = Classes/MatchFactory.h; sourceTree = "<group>"; };
+		ABD223521B845CA7000ABBE2 /* MatchFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchFactory.m; path = Classes/MatchFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD2231A1B8459D6000ABBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD223331B8459D6000ABBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD223141B8459D6000ABBE2 = {
+			isa = PBXGroup;
+			children = (
+				ABD2231F1B8459D6000ABBE2 /* Oefening-UITableView-1 */,
+				ABD223391B8459D6000ABBE2 /* Oefening-UITableView-1Tests */,
+				ABD2231E1B8459D6000ABBE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD2231E1B8459D6000ABBE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2231D1B8459D6000ABBE2 /* Oefening-UITableView-1.app */,
+				ABD223361B8459D6000ABBE2 /* Oefening-UITableView-1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD2231F1B8459D6000ABBE2 /* Oefening-UITableView-1 */ = {
+			isa = PBXGroup;
+			children = (
+				ABD223461B845A68000ABBE2 /* Application */,
+				ABD223471B845A6D000ABBE2 /* Controllers */,
+				ABD2234A1B845B82000ABBE2 /* Models */,
+				ABD2234B1B845B8D000ABBE2 /* Views */,
+				ABD2234F1B845C92000ABBE2 /* Services */,
+				ABD223491B845A84000ABBE2 /* Resources */,
+				ABD223201B8459D6000ABBE2 /* Supporting Files */,
+			);
+			path = "Oefening-UITableView-1";
+			sourceTree = "<group>";
+		};
+		ABD223201B8459D6000ABBE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD223211B8459D6000ABBE2 /* Info.plist */,
+				ABD223221B8459D6000ABBE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD223391B8459D6000ABBE2 /* Oefening-UITableView-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2233C1B8459D6000ABBE2 /* Oefening_UITableView_1Tests.m */,
+				ABD2233A1B8459D6000ABBE2 /* Supporting Files */,
+			);
+			path = "Oefening-UITableView-1Tests";
+			sourceTree = "<group>";
+		};
+		ABD2233A1B8459D6000ABBE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2233B1B8459D6000ABBE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD223461B845A68000ABBE2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				ABD223241B8459D6000ABBE2 /* AppDelegate.h */,
+				ABD223251B8459D6000ABBE2 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		ABD223471B845A6D000ABBE2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABD223481B845A7A000ABBE2 /* Storyboards */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ABD223481B845A7A000ABBE2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2232A1B8459D6000ABBE2 /* Main.storyboard */,
+				ABD2232F1B8459D6000ABBE2 /* LaunchScreen.xib */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		ABD223491B845A84000ABBE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2232D1B8459D6000ABBE2 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ABD2234A1B845B82000ABBE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2234C1B845BA9000ABBE2 /* Match.h */,
+				ABD2234D1B845BA9000ABBE2 /* Match.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		ABD2234B1B845B8D000ABBE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ABD2234F1B845C92000ABBE2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ABD223511B845CA7000ABBE2 /* MatchFactory.h */,
+				ABD223521B845CA7000ABBE2 /* MatchFactory.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD2231C1B8459D6000ABBE2 /* Oefening-UITableView-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD223401B8459D6000ABBE2 /* Build configuration list for PBXNativeTarget "Oefening-UITableView-1" */;
+			buildPhases = (
+				ABD223191B8459D6000ABBE2 /* Sources */,
+				ABD2231A1B8459D6000ABBE2 /* Frameworks */,
+				ABD2231B1B8459D6000ABBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Oefening-UITableView-1";
+			productName = "Oefening-UITableView-1";
+			productReference = ABD2231D1B8459D6000ABBE2 /* Oefening-UITableView-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD223351B8459D6000ABBE2 /* Oefening-UITableView-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD223431B8459D6000ABBE2 /* Build configuration list for PBXNativeTarget "Oefening-UITableView-1Tests" */;
+			buildPhases = (
+				ABD223321B8459D6000ABBE2 /* Sources */,
+				ABD223331B8459D6000ABBE2 /* Frameworks */,
+				ABD223341B8459D6000ABBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD223381B8459D6000ABBE2 /* PBXTargetDependency */,
+			);
+			name = "Oefening-UITableView-1Tests";
+			productName = "Oefening-UITableView-1Tests";
+			productReference = ABD223361B8459D6000ABBE2 /* Oefening-UITableView-1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD223151B8459D6000ABBE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = EASI;
+				TargetAttributes = {
+					ABD2231C1B8459D6000ABBE2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ABD223351B8459D6000ABBE2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ABD2231C1B8459D6000ABBE2;
+					};
+				};
+			};
+			buildConfigurationList = ABD223181B8459D6000ABBE2 /* Build configuration list for PBXProject "Oefening-UITableView-1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD223141B8459D6000ABBE2;
+			productRefGroup = ABD2231E1B8459D6000ABBE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD2231C1B8459D6000ABBE2 /* Oefening-UITableView-1 */,
+				ABD223351B8459D6000ABBE2 /* Oefening-UITableView-1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD2231B1B8459D6000ABBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2232C1B8459D6000ABBE2 /* Main.storyboard in Resources */,
+				ABD223311B8459D6000ABBE2 /* LaunchScreen.xib in Resources */,
+				ABD2232E1B8459D6000ABBE2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD223341B8459D6000ABBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD223191B8459D6000ABBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2234E1B845BA9000ABBE2 /* Match.m in Sources */,
+				ABD223261B8459D6000ABBE2 /* AppDelegate.m in Sources */,
+				ABD223531B845CA7000ABBE2 /* MatchFactory.m in Sources */,
+				ABD223231B8459D6000ABBE2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD223321B8459D6000ABBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2233D1B8459D6000ABBE2 /* Oefening_UITableView_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD223381B8459D6000ABBE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD2231C1B8459D6000ABBE2 /* Oefening-UITableView-1 */;
+			targetProxy = ABD223371B8459D6000ABBE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABD2232A1B8459D6000ABBE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD2232B1B8459D6000ABBE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABD2232F1B8459D6000ABBE2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD223301B8459D6000ABBE2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD2233E1B8459D6000ABBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABD2233F1B8459D6000ABBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD223411B8459D6000ABBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Oefening-UITableView-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABD223421B8459D6000ABBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Oefening-UITableView-1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABD223441B8459D6000ABBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Oefening-UITableView-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oefening-UITableView-1.app/Oefening-UITableView-1";
+			};
+			name = Debug;
+		};
+		ABD223451B8459D6000ABBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Oefening-UITableView-1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oefening-UITableView-1.app/Oefening-UITableView-1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD223181B8459D6000ABBE2 /* Build configuration list for PBXProject "Oefening-UITableView-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD2233E1B8459D6000ABBE2 /* Debug */,
+				ABD2233F1B8459D6000ABBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD223401B8459D6000ABBE2 /* Build configuration list for PBXNativeTarget "Oefening-UITableView-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD223411B8459D6000ABBE2 /* Debug */,
+				ABD223421B8459D6000ABBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABD223431B8459D6000ABBE2 /* Build configuration list for PBXNativeTarget "Oefening-UITableView-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD223441B8459D6000ABBE2 /* Debug */,
+				ABD223451B8459D6000ABBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD223151B8459D6000ABBE2 /* Project object */;
+}
