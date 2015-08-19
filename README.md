@@ -1,4 +1,4 @@
-# [Nog niet beginnen aub :)] Oefening-UITableView-1
+# [Nog niet beginnen aub :)] - Oefening-UITableView-1
 
 In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
 
