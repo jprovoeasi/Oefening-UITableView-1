@@ -10,7 +10,7 @@ In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
 1. Voeg een UITableViewController toe aan het storyboard.
 2. Configureer de UITableViewController in het storyboard. Gebruik hiervoor de attributes inspector.
 3. Maak een **prototype cell** in het storyboard.
-  - Visualiseer de namen en de scores van de teams. Gebruik verschillende UILabels. Als de match niet afgelopen is, verberg je de labels.
+  - Visualiseer de namen en de scores van de teams. Gebruik verschillende UILabels. Als de match niet afgelopen is, verberg je de scores.
   - Zet de **reuse identifier** van de cell.
 4. Implementeer het **UITableViewDataSource protocol**.
   - Gebruik voorlopig 1 sectie om alles weer te geven.
