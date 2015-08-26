@@ -1,4 +1,4 @@
-# [Nog niet beginnen aub :)] - Oefening-UITableView-1
+# Oefening-UITableView-1
 
 In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
 
@@ -10,7 +10,7 @@ In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
 1. Voeg een UITableViewController toe aan het storyboard.
 2. Configureer de UITableViewController in het storyboard. Gebruik hiervoor de attributes inspector.
 3. Maak een **prototype cell** in het storyboard.
-  - Visualiseer de namen en de scores van de teams. Gebruik verschillende UILabels. Als de match niet afgelopen is, verberg je de labels.
+  - Visualiseer de namen en de scores van de teams. Gebruik verschillende UILabels. Als de match niet afgelopen is, verberg je de scores.
   - Zet de **reuse identifier** van de cell.
 4. Implementeer het **UITableViewDataSource protocol**.
   - Gebruik voorlopig 1 sectie om alles weer te geven.
@@ -23,5 +23,9 @@ In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
   - Je zult meerdere secties moeten invoeren in de UITableView.
 8. Verander de hoogte van de header views.
 9. Verwijder de **cell separator**.
-10. Wanneer je op een row klikt, navigeer je d.m.v. een push naar een detail scherm.
+10. Voeg de cell separator terug toe en verander de default kleur.
+11. Wanneer je op een row klikt, navigeer je d.m.v. een push naar een detail scherm.
   - Geef de gekozen `Match` mee aan de detail view controller in de methode `prepareForSegue:sender:`.
+  - Toon de afbeeldingen van beide teams in full size.
+  - Toon de namen van beide teams.
+  - Toon de score.
