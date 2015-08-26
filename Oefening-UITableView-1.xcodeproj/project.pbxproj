@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB64CE441B85CC5900F45897 /* MatchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB64CE431B85CC5900F45897 /* MatchTableViewCell.m */; };
+		AB64CE471B85CC6400F45897 /* MatchSectionHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB64CE461B85CC6400F45897 /* MatchSectionHeaderTableViewCell.m */; };
+		AB64CE4A1B85CDDA00F45897 /* MatchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB64CE491B85CDDA00F45897 /* MatchTableViewController.m */; };
+		AB64CE4D1B861ACD00F45897 /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB64CE4C1B861ACD00F45897 /* MatchViewController.m */; };
 		ABD223231B8459D6000ABBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD223221B8459D6000ABBE2 /* main.m */; };
 		ABD223261B8459D6000ABBE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD223251B8459D6000ABBE2 /* AppDelegate.m */; };
 		ABD2232C1B8459D6000ABBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD2232A1B8459D6000ABBE2 /* Main.storyboard */; };
@@ -28,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB64CE421B85CC5900F45897 /* MatchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchTableViewCell.h; path = Classes/MatchTableViewCell.h; sourceTree = "<group>"; };
+		AB64CE431B85CC5900F45897 /* MatchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchTableViewCell.m; path = Classes/MatchTableViewCell.m; sourceTree = "<group>"; };
+		AB64CE451B85CC6400F45897 /* MatchSectionHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchSectionHeaderTableViewCell.h; path = Classes/MatchSectionHeaderTableViewCell.h; sourceTree = "<group>"; };
+		AB64CE461B85CC6400F45897 /* MatchSectionHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchSectionHeaderTableViewCell.m; path = Classes/MatchSectionHeaderTableViewCell.m; sourceTree = "<group>"; };
+		AB64CE481B85CDDA00F45897 /* MatchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchTableViewController.h; path = Classes/MatchTableViewController.h; sourceTree = "<group>"; };
+		AB64CE491B85CDDA00F45897 /* MatchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchTableViewController.m; path = Classes/MatchTableViewController.m; sourceTree = "<group>"; };
+		AB64CE4B1B861ACD00F45897 /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchViewController.h; path = Classes/MatchViewController.h; sourceTree = "<group>"; };
+		AB64CE4C1B861ACD00F45897 /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchViewController.m; path = Classes/MatchViewController.m; sourceTree = "<group>"; };
 		ABD2231D1B8459D6000ABBE2 /* Oefening-UITableView-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oefening-UITableView-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD223211B8459D6000ABBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABD223221B8459D6000ABBE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -134,6 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				ABD223481B845A7A000ABBE2 /* Storyboards */,
+				AB64CE481B85CDDA00F45897 /* MatchTableViewController.h */,
+				AB64CE491B85CDDA00F45897 /* MatchTableViewController.m */,
+				AB64CE4B1B861ACD00F45897 /* MatchViewController.h */,
+				AB64CE4C1B861ACD00F45897 /* MatchViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -167,6 +183,10 @@
 		ABD2234B1B845B8D000ABBE2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AB64CE421B85CC5900F45897 /* MatchTableViewCell.h */,
+				AB64CE431B85CC5900F45897 /* MatchTableViewCell.m */,
+				AB64CE451B85CC6400F45897 /* MatchSectionHeaderTableViewCell.h */,
+				AB64CE461B85CC6400F45897 /* MatchSectionHeaderTableViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -280,9 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB64CE4A1B85CDDA00F45897 /* MatchTableViewController.m in Sources */,
 				ABD2234E1B845BA9000ABBE2 /* Match.m in Sources */,
 				ABD223261B8459D6000ABBE2 /* AppDelegate.m in Sources */,
 				ABD223531B845CA7000ABBE2 /* MatchFactory.m in Sources */,
+				AB64CE4D1B861ACD00F45897 /* MatchViewController.m in Sources */,
+				AB64CE441B85CC5900F45897 /* MatchTableViewCell.m in Sources */,
+				AB64CE471B85CC6400F45897 /* MatchSectionHeaderTableViewCell.m in Sources */,
 				ABD223231B8459D6000ABBE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +504,7 @@
 				ABD223421B8459D6000ABBE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABD223431B8459D6000ABBE2 /* Build configuration list for PBXNativeTarget "Oefening-UITableView-1Tests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +513,7 @@
 				ABD223451B8459D6000ABBE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
