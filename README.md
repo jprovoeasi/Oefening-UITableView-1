@@ -29,3 +29,6 @@ In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
   - Toon de afbeeldingen van beide teams in full size.
   - Toon de namen van beide teams.
   - Toon de score.
+
+## Oplossing
+De oplossingen vind je terug onder de branch **oplossing** van deze repository.
