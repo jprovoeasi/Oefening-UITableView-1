@@ -1,6 +1,6 @@
 # Oefening-UITableView-1
 
-In deze oefening gaan we **dynamic** rows gebruiken in de UITableView.
+In deze oefening maak je gebruik van een **dynamic** UITableView.
 
 ## Tips
 1. De UITableView configureer je vanuit het storyboard. Selecteer de UITableView en gebruik de **attributes inspector**.
